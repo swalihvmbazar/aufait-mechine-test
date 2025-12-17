@@ -58,8 +58,8 @@ const EventSection = () => {
                     </div>
                 </div>
                 <div className="space-y-3">
-                    {events.slice(1).map((event, idx) => (
-                        <div key={idx} className="flex gap-3">
+                    {events.slice(1).map((event, index) => (
+                        <div key={index} className="flex gap-3">
                             <img
                                 src={event.image}
                                 alt={event.title}
