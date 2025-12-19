@@ -1,4 +1,4 @@
-import { Camera, LayoutGrid } from 'lucide-react';
+import {  LayoutGrid } from 'lucide-react';
 
 const links = [
     {

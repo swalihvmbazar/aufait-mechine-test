@@ -41,7 +41,9 @@ const HeroSlider = () => {
         };
 
         emblaApi.on('select', onSelect);
-        return () => emblaApi.off('select', onSelect);
+        return () => {
+            emblaApi.off('select', onSelect);
+        };
     }, [emblaApi]);
 
 
